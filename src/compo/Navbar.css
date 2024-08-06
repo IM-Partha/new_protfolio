@@ -1,0 +1,27 @@
+
+.nav-them {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    cursor: pointer;
+    
+  }
+  
+  .nav-them .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-them .navbar-nav .nav-link {
+    font-size: 1.1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-them .navbar-nav {
+      text-align: center;
+    }
+  
+    .nav-them .navbar-nav .nav-link {
+      padding: 0.5rem 0;
+    }
+  }
+  

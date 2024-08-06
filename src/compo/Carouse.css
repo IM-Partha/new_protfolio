@@ -1,0 +1,32 @@
+/* Carouse.css */
+.carousel-container {
+  position: relative;
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: auto; /* Ensure images are responsive */
+}
+
+.title-message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the title message */
+  z-index: 2;
+  width: 100%; /* Ensure it spans the full width */
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .title-message {
+    top: 40%; /* Adjust position for smaller screens */
+  }
+}
+
+@media (max-width: 576px) {
+  .title-message {
+    top: 30%; /* Adjust position further for mobile screens */
+  }
+}

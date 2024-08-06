@@ -1,0 +1,18 @@
+.logo{
+    font-size: 30px;
+}
+
+.nav-them{
+    background-color: rgba(16,16,24,.89);
+    font-size: 20px;
+    height: 85px !important;
+}
+.nav link{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.nav-theme{
+    height: auto !important;
+    width: 100%;
+  }

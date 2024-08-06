@@ -1,0 +1,12 @@
+.image-style {
+    width: 50px; 
+    height: 50px; 
+}
+
+.focus {
+    transition: transform 0.3s;
+}
+
+.focus:hover {
+    transform: scale(1.05);
+}

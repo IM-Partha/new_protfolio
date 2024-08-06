@@ -1,0 +1,35 @@
+.projects-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card-img-top {
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+  }
+  
+  .project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .github-link {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .github-link:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
